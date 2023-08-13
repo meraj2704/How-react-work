@@ -1,6 +1,7 @@
 
 import './App.css';
 import Device from './Components/Device/Device';
+import Display from './Components/Display/Display';
 import Watch from './Components/Watch/Watch';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       price="10000"
       ></Device>
       <Watch></Watch>
+      
     </div>
   );
 }
